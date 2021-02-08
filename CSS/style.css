@@ -1,0 +1,34 @@
+header h2{text-align: center;
+background-color: black;
+color: cornsilk;
+font-style: oblique;}
+
+#firstParagraph{background-color: maroon;
+color: white;
+font-size: .25in;
+font-style: italic;}
+
+#personalImg{float: right;
+margin-top: 50px;}
+
+main h2{text-align: center;}
+
+#first{background-color: yellow;
+font-style: italic;}
+
+#second{background-color: brown;
+font-style: italic;}
+
+#third{background-color: crimson;
+font-style: italic;
+padding-right: 300px;}
+
+#copy{text-align: center;
+font-size: 0.3in;
+background-color: silver;
+font-style: italic;
+padding-right: 300px;
+margin-top: 100px;}
+body{background-color: rgb(87, 88, 86);}
+.detail{font-style: oblique;
+font-size: 0.2in;}
