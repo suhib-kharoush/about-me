@@ -32,3 +32,6 @@ margin-top: 100px;}
 body{background-color: rgb(87, 88, 86);}
 .detail{font-style: oblique;
 font-size: 0.2in;}
+#top{background-color: rgb(241, 44, 83);
+    font-style: italic;
+    padding-right: 300px;}
