@@ -87,12 +87,17 @@ else if (learn == 'no' || learn == 'n') {
     score++
     alert(message + ' you lost ' + score + ' points')
 }
-let prefer = prompt('from 10, answer the next questions what you prefer to study, if you want write yes and if you don\'t want write no');
- message = 'nice to meet you';
-while (prefer == 'no') {
-    alert(message);
+let foods = ['vegetables','fruits','meat','fish'];
+for (let i=5 ; i>1 ; i-- ){
+let prefer = prompt('guess what the type of food i prefer');
+while (prefer !=foods ) {prefer = prompt('guess what the type of food i prefer, you have '+ i +'attempts');
+ prefer = parseint(prefer);
+ break;} 
+ if (prefer==foods) {y=y+1;
+    i=0 
+ } else if (prefer>foods){alert('too high');} else {alert("too low");}
 }
-
+if (foods!=prefer){alert('my favourite food is 1')}
 // let field1 = 'mechanical'
 // let field2 = 'electrical'
 // let field3 = 'civil'
