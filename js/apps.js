@@ -37,7 +37,7 @@ if (major === 'yes') {
 }
 } myStudy()
 
-function myAge() {
+function myAge(){
 let age = prompt('I\'m 25 years old');
 /*console.log(age);*/
 while (!age) { age = prompt('pease just answer yes or no, don\'t leave it empty') }
@@ -54,6 +54,7 @@ if (age === 'yes') {
 }
 myAge()
 
+function job (){
 let work = prompt('did i work at my own business?');
 work.toLowerCase()
 /*console.log(work);*/
@@ -66,7 +67,7 @@ if (work == 'yes') {
     message = 'it\'s wrong';
     score++
     alert(message + ' you lost ' + score + ' points');
-}
+} } job ()
 
 
 let learn = prompt('do i learn software development?');
