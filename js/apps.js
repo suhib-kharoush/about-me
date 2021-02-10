@@ -69,7 +69,7 @@ if (work == 'yes') {
     alert(message + ' you lost ' + score + ' points');
 } } job ()
 
-
+function courses() {
 let learn = prompt('do i learn software development?');
 learn.toUpperCase()
 /*console.log(learn);*/
@@ -83,6 +83,7 @@ else if (learn == 'no' || learn == 'n') {
     score++
     alert(message + ' you lost ' + score + ' points')
 }
+} courses()
 
 let graduate = prompt('I\'ve graduated from university in 2020');
 if (graduate == 'yes' || graduate == 'y') {
