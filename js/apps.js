@@ -92,7 +92,6 @@ for (let i=6 ; i>=1 ; i-- ){
 let prefer = prompt('guess what the type of food i prefer, you have '+i+' attempt');
 for (let x=0; x<4;x++)
 {if(prefer.toLowerCase()===foods[x]){
-a=a+1;
 i=0;
 }}
 }
