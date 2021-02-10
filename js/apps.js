@@ -1,12 +1,17 @@
 'use strict';
+function theFirst() {
+    
 let userName = prompt('what\'s your name?')
 /*console.log(userName);
 */
 alert('welcome ' + userName + ' let\'s play a guessing game');
 let score = 0;
+} theFirst()
 
+function myStudy() {
+    
 let major = prompt('I\'m i a mechanical engineer?')
-console.log(major);
+//console.log(major);
 // switch (major) {
 //     case 'yes':
 //         document.write('great');
@@ -17,12 +22,15 @@ console.log(major);
 // }
 //let major = prompt('I\'m i a mechanical engineer?');
 /*console.log(major);*/
+} myStudy()
+
 while (!major) { major = prompt('please answer yes or no') }
 let message;
 if (major === 'yes') {
     message = 'you are right';
     score++
     alert('you got ' + score + 'point');
+
 
 } else if (major === 'no') {
     message = 'you are wrong';
