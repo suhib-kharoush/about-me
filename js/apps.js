@@ -9,7 +9,6 @@ let score = 0;
 } theFirst()
 
 function myStudy() {
-    
 let major = prompt('I\'m i a mechanical engineer?')
 //console.log(major);
 // switch (major) {
@@ -22,8 +21,6 @@ let major = prompt('I\'m i a mechanical engineer?')
 // }
 //let major = prompt('I\'m i a mechanical engineer?');
 /*console.log(major);*/
-} myStudy()
-
 while (!major) { major = prompt('please answer yes or no') }
 let message;
 if (major === 'yes') {
@@ -38,8 +35,9 @@ if (major === 'yes') {
 
     alert(message + ' you lost ' + score + 'point');
 }
+} myStudy()
 
-
+function myAge() {
 let age = prompt('I\'m 25 years old');
 /*console.log(age);*/
 while (!age) { age = prompt('pease just answer yes or no, don\'t leave it empty') }
@@ -53,7 +51,8 @@ if (age === 'yes') {
     score++
     alert(message + ' you lost ' + score + ' points');
 }
-
+}
+myAge()
 
 let work = prompt('did i work at my own business?');
 work.toLowerCase()
