@@ -98,6 +98,8 @@ else if (learn == 'no' || learn == 'n') {
     alert(message + ' you lost ' + score + ' points')
 } } senior()
 
+
+function eat(){
 let foods = ['vegetables','fruits','meat','fish'];
 for (let i=6 ; i>=1 ; i-- ){
 let prefer = prompt('guess what the type of food i prefer, you have '+i+' attempt');
@@ -105,7 +107,7 @@ for (let x=0; x<4;x++)
 {if(prefer.toLowerCase()===foods[x]){
 i=0;
 }}
-}
+} } eat()
 // while (prefer !=foods ) {prefer = prompt('guess what the type of food i prefer, you have '+ i +'attempts');
 //  prefer = parseint(prefer);
 //  break;} 
