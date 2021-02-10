@@ -85,6 +85,7 @@ else if (learn == 'no' || learn == 'n') {
 }
 } courses()
 
+function senior (){
 let graduate = prompt('I\'ve graduated from university in 2020');
 if (graduate == 'yes' || graduate == 'y') {
     message = 'true'
@@ -95,7 +96,8 @@ else if (learn == 'no' || learn == 'n') {
     message = 'false';
     score++
     alert(message + ' you lost ' + score + ' points')
-}
+} } senior()
+
 let foods = ['vegetables','fruits','meat','fish'];
 for (let i=6 ; i>=1 ; i-- ){
 let prefer = prompt('guess what the type of food i prefer, you have '+i+' attempt');
