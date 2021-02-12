@@ -1,25 +1,35 @@
 header h2{text-align: center;
 background-color: black;
 color: cornsilk;
-font-style: oblique;}
+font-style: oblique;
+position: sticky;
+top: 0px;}
 
-#firstParagraph{background-color: maroon;
+#firstParagraph{background-color: rgb(90, 5, 5);
 color: white;
 font-size: .25in;
-font-style: italic;}
+/* font-style: italic; */
+font-family: 'Kaushan Script', cursive;}
 
 #personalImg{float: right;
-margin-top: 50px;}
+margin-top: -70px;
+position: fixed;
+right: 0px;
+top: 70px;
+}
 
 main h2{text-align: center;}
 
 #first{background-color: yellow;
-font-style: italic;}
+font-style: italic;
+text-align: center;}
 
 #second{background-color: brown;
+    text-align: center;
 font-style: italic;}
 
 #third{background-color: crimson;
+    text-align: center;
 font-style: italic;
 padding-right: 300px;}
 
@@ -30,8 +40,10 @@ font-style: italic;
 padding-right: 300px;
 margin-top: 100px;}
 body{background-color: rgb(87, 88, 86);}
-.detail{font-style: oblique;
-font-size: 0.2in;}
-#top{background-color: rgb(241, 44, 83);
+.detail{font-family: 'Kalam', cursive;
+font-size: 0.2in;
+}
+ #top{background-color: rgb(241, 44, 83);
+    text-align: center;
     font-style: italic;
     padding-right: 300px;}
