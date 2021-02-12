@@ -1,12 +1,16 @@
 'use strict';
+function theFirst() {
+    
 let userName = prompt('what\'s your name?')
 /*console.log(userName);
 */
 alert('welcome ' + userName + ' let\'s play a guessing game');
 let score = 0;
+} theFirst()
 
+function myStudy() {
 let major = prompt('I\'m i a mechanical engineer?')
-console.log(major);
+//console.log(major);
 // switch (major) {
 //     case 'yes':
 //         document.write('great');
@@ -24,14 +28,16 @@ if (major === 'yes') {
     score++
     alert('you got ' + score + 'point');
 
+
 } else if (major === 'no') {
     message = 'you are wrong';
     score++
 
     alert(message + ' you lost ' + score + 'point');
 }
+} myStudy()
 
-
+function myAge(){
 let age = prompt('I\'m 25 years old');
 /*console.log(age);*/
 while (!age) { age = prompt('pease just answer yes or no, don\'t leave it empty') }
@@ -45,8 +51,10 @@ if (age === 'yes') {
     score++
     alert(message + ' you lost ' + score + ' points');
 }
+}
+myAge()
 
-
+function job (){
 let work = prompt('did i work at my own business?');
 work.toLowerCase()
 /*console.log(work);*/
@@ -59,9 +67,9 @@ if (work == 'yes') {
     message = 'it\'s wrong';
     score++
     alert(message + ' you lost ' + score + ' points');
-}
+} } job ()
 
-
+function courses() {
 let learn = prompt('do i learn software development?');
 learn.toUpperCase()
 /*console.log(learn);*/
@@ -75,7 +83,9 @@ else if (learn == 'no' || learn == 'n') {
     score++
     alert(message + ' you lost ' + score + ' points')
 }
+} courses()
 
+function senior (){
 let graduate = prompt('I\'ve graduated from university in 2020');
 if (graduate == 'yes' || graduate == 'y') {
     message = 'true'
@@ -86,7 +96,10 @@ else if (learn == 'no' || learn == 'n') {
     message = 'false';
     score++
     alert(message + ' you lost ' + score + ' points')
-}
+} } senior()
+
+
+function eat(){
 let foods = ['vegetables','fruits','meat','fish'];
 for (let i=6 ; i>=1 ; i-- ){
 let prefer = prompt('guess what the type of food i prefer, you have '+i+' attempt');
@@ -94,7 +107,7 @@ for (let x=0; x<4;x++)
 {if(prefer.toLowerCase()===foods[x]){
 i=0;
 }}
-}
+} } eat()
 // while (prefer !=foods ) {prefer = prompt('guess what the type of food i prefer, you have '+ i +'attempts');
 //  prefer = parseint(prefer);
 //  break;} 
