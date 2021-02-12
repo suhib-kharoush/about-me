@@ -87,15 +87,15 @@ for (let i = 6; i >= 1; i--) {
         }
     }
 }
-for(let z = 4; z>0; z--){
-    let ques = prompt('guess the odd number between 1-19 which in my mind, you have '+z+' attempt');
-let theNum=11;
-if(ques>theNum){
-    alert("too high");
-}if(ques<theNum){
-    alert("too low");
-}if(ques==theNum){
-    alert("you pass");
-    break;
-}
+for (let z = 4; z > 0; z--) {
+    let ques = prompt('guess the odd number between 1-19 which in my mind, you have ' + z + ' attempt');
+    let theNum = 11;
+    if (ques > theNum) {
+        alert("too high");
+    } if (ques < theNum) {
+        alert("too low");
+    } if (ques == theNum) {
+        alert("you pass");
+        break;
+    }
 }
